@@ -5,41 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d3ec3af-6ef0-4562-8de5-419ff1ba7f66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/EventStream/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EventStream/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EventStream/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EventStream/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EventStream/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EventStream/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EventStream/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EventStream/src/main/java/tbs/kafka/EventStream/EventStreamApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EventStream/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EventStream/src/test/java/tbs/kafka/EventStream/EventStreamApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticket-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticket-service/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticket-service/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticket-service/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticket-service/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticket-service/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticket-service/libs/json-simple-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticket-service/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticket-service/src/main/java/tbs/services/ticketservice/TicketServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticket-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticket-service/src/test/java/tbs/services/ticketservice/TicketServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-client/src/main/resources/templates/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-client/src/main/resources/templates/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-client/src/main/resources/templates/TODO.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-client/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-client/src/main/resources/templates/jquery.seat-charts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-client/src/main/resources/templates/jquery.seat-charts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-client/src/main/resources/templates/jquery.seat-charts.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-client/src/main/resources/templates/test/general.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-client/src/main/resources/templates/test/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-client/src/main/resources/templates/test/interactions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-client/src/main/resources/templates/test/methods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-client/src/main/resources/templates/test/multiple.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventStream/src/main/java/tbs/kafka/EventStream/controllers/kafkaControllers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventStream/src/main/java/tbs/kafka/EventStream/services/EventConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EventStream/src/main/java/tbs/kafka/EventStream/services/EventProducer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EventStream/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/EventStream/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EventStream/src/main/java/tbs/kafka/EventStream/EventStreamApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/EventStream/src/main/java/tbs/kafka/EventStream/EventStreamApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EventStream/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/EventStream/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +48,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -98,6 +78,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
