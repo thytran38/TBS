@@ -5,13 +5,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d3ec3af-6ef0-4562-8de5-419ff1ba7f66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticket-service/src/main/java/tbs/services/ticketservice/fetching/FetchingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticket-service/src/main/java/tbs/services/ticketservice/model/Station.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticket-service/src/main/java/tbs/services/ticketservice/model/Trip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/futa-to-kafka-service/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/futa-to-kafka-service/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/futa-to-kafka-service/src/main/java/tbs/service/futakafka/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/futa-to-kafka-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/futa-to-kafka-service/src/test/java/tbs/service/futakafka/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vexere-to-kafka-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vexere-to-kafka-service/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vexere-to-kafka-service/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vexere-to-kafka-service/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vexere-to-kafka-service/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket-service/src/main/java/tbs/services/ticketservice/TicketServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticket-service/src/main/java/tbs/services/ticketservice/TicketServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service-vxr/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/futa-to-kafka-service/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service-vxr/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/vexere-to-kafka-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service-vxr/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/futa-to-kafka-service/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service-vxr/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/futa-to-kafka-service/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service-vxr/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/futa-to-kafka-service/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service-vxr/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/futa-to-kafka-service/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service-vxr/libs/json-simple-1.1.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/vexere-to-kafka-service/libs/json-simple-1.1.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service-vxr/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/vexere-to-kafka-service/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service-vxr/src/main/java/tbs/services/ticketservice/TicketServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/TicketServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service-vxr/src/main/java/tbs/services/ticketservice/fetching/FetchingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/fetching/FetchingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service-vxr/src/main/java/tbs/services/ticketservice/model/Station.java" beforeDir="false" afterPath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/model/Station.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service-vxr/src/main/java/tbs/services/ticketservice/model/Trip.java" beforeDir="false" afterPath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/model/Trip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service-vxr/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket-service-vxr/src/test/java/tbs/services/ticketservice/TicketServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/vexere-to-kafka-service/src/test/java/tbs/services/ticketservice/TicketServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-client/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-client/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-client/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-client/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-client/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-client/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-client/src/main/java/tbs/client/webclient/WebClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/WebClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-client/src/main/resources/templates/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/resources/templates/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-client/src/main/resources/templates/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/resources/templates/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-client/src/main/resources/templates/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/resources/templates/TODO.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-client/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-client/src/main/resources/templates/jquery.seat-charts.css" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/resources/templates/jquery.seat-charts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-client/src/main/resources/templates/jquery.seat-charts.js" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/resources/templates/jquery.seat-charts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-client/src/main/resources/templates/jquery.seat-charts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/resources/templates/jquery.seat-charts.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-client/src/main/resources/templates/test/general.js" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/resources/templates/test/general.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-client/src/main/resources/templates/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/resources/templates/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-client/src/main/resources/templates/test/interactions.js" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/resources/templates/test/interactions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-client/src/main/resources/templates/test/methods.js" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/resources/templates/test/methods.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-client/src/main/resources/templates/test/multiple.js" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/resources/templates/test/multiple.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-client/src/test/java/tbs/client/webclient/WebClientApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/test/java/tbs/client/webclient/WebClientApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +65,9 @@
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/EventStream">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/futa-to-kafka-service">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/ticket-service">
