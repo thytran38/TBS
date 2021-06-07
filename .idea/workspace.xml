@@ -7,14 +7,9 @@
     <list default="true" id="4d3ec3af-6ef0-4562-8de5-419ff1ba7f66" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_web-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_web-client/src/main/resources/templates/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/resources/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_web-client/src/main/resources/templates/images/Searchs_002.png" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/resources/static/images/Searchs_002.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_web-client/src/main/resources/templates/images/wp2704613.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/resources/static/images/wp2704613.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_web-client/src/main/resources/templates/js/extention/choices.js" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/resources/static/js/extention/choices.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_web-client/src/main/resources/templates/js/extention/custom-materialize.js" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/resources/static/js/extention/custom-materialize.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_web-client/src/main/resources/templates/js/extention/flatpickr.js" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/resources/static/js/extention/flatpickr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_web-client/src/main/resources/templates/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/resources/static/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vexere-to-kafka-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/vexere-to-kafka-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/TicketServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/TicketServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/fetching/FetchingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/fetching/FetchingService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +80,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../nsth-eventdriven/4.1 microservices-demo/twitter-to-kafka-service" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.42446044" />
@@ -94,6 +89,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ticket-service/libs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="Y:\Workspace\tbs\TBS\query_web-client\src\main\resources\static" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.ticket-service">

@@ -15,7 +15,8 @@ public class TicketServiceApplication {
 
 	public static void main(String[] args) throws IOException {
 		FetchingService fetchingService = new FetchingService();
-		FetchingService.sendRequest();
+
+		fetchingService.parseToPojo(FetchingService.sendRequest());
 		SpringApplication.run(TicketServiceApplication.class, args);
 
 

@@ -2,9 +2,6 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="futa-to-kafka-service" target="1.8" />
-      <module name="futa-to-kafka-service.main" target="1.8" />
-      <module name="futa-to-kafka-service.test" target="1.8" />
       <module name="query_web-client" target="1.8" />
     </bytecodeTargetLevel>
   </component>
