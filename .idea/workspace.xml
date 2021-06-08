@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d3ec3af-6ef0-4562-8de5-419ff1ba7f66" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/fetching/results.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/resources/apiResults.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vexere-to-kafka-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/vexere-to-kafka-service/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/TicketServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/TicketServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/fetching/FetchingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/fetching/FetchingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/model/Trip.java" beforeDir="false" afterPath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/model/Trip.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +66,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
@@ -84,6 +94,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.42446044" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">

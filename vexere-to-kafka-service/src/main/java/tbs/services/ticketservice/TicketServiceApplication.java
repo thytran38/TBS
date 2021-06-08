@@ -13,10 +13,9 @@ import java.util.Scanner;
 @SpringBootApplication
 public class TicketServiceApplication {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException, IllegalStateException {
 		FetchingService fetchingService = new FetchingService();
-
-		fetchingService.parseToPojo(FetchingService.sendRequest());
+		fetchingService.sendRequest();
 		SpringApplication.run(TicketServiceApplication.class, args);
 
 
