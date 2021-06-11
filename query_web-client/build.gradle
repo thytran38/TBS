@@ -17,14 +17,27 @@ ext {
 }
 
 dependencies {
+	// https://mvnrepository.com/artifact/io.springfox/springfox-swagger2
+	implementation group: 'io.springfox', name: 'springfox-swagger2', version: '2.9.2'
+	// https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui
+	implementation group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.9.2'
+
+
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
-//	implementation 'org.springframework.boot:spring-boot-starter-webflux'
-//	implementation 'org.springframework.cloud:spring-cloud-starter-gateway'
+
 	implementation 'org.springframework.cloud:spring-cloud-starter-loadbalancer'
 	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
 	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-server'
 	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-hystrix'
 	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-ribbon'
+	implementation group: 'jakarta.persistence', name: 'jakarta.persistence-api', version: '2.2.3'\
+
+	// https://mvnrepository.com/artifact/org.springframework.data/spring-data-elasticsearch
+	implementation group: 'org.springframework.data', name: 'spring-data-elasticsearch', version: '4.1.5'
+
+	implementation 'org.apache.kafka:kafka-streams'
+	implementation 'org.springframework.kafka:spring-kafka'
+
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}

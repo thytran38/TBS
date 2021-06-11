@@ -1,29 +1,18 @@
-package tbs.services.ticketservice.model;
+package tbs.client.webclient.model;
 
-
-import javax.persistence.*;
-import javax.persistence.Entity;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.elasticsearch.annotations.Document;
 
 
-
-import java.io.Serializable;
-
-@Entity
-@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
-public class Trip implements Serializable {
+@Document(indexName = "trips")
+public class Trip{
 
     private static final long serialVersionUID = 1L;
 
     @Id
-    @Column(name="TRIP_ID", nullable = false)
     public int tripId;
+
     public String tripName;
     public String departLoca;
     public String desLoca;

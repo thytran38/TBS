@@ -1,20 +1,27 @@
 package tbs.services.ticketservice.fetching;
 
-import java.io.*;
-import java.lang.reflect.Type;
+import org.apache.kafka.clients.producer.KafkaProducer;
+import org.apache.kafka.clients.producer.ProducerRecord;
+import tbs.services.ticketservice.kafka.TripProducer;
+import tbs.services.ticketservice.model.Trip;
+
+import java.io.BufferedReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
-import java.net.URI;
 import java.net.URL;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
 
 public class FetchingService {
     static FileWriter fileWriter;
+    static KafkaProducer<String, Object> kafkaProducer;
 
-    public static void sendRequest() throws IOException {
+
+    static TripProducer tripProducer;
+
+    public static void getAPIResults() throws IOException {
         String result = "";
-        URL urlVxr = new URL("http://localhost:8081/trips");
+        URL urlVxr = new URL("http://localhost:8081/allTrips");
         String readLine = null;
         HttpURLConnection connection = (HttpURLConnection) urlVxr.openConnection();
         connection.setRequestMethod("GET");
@@ -31,8 +38,8 @@ public class FetchingService {
                 fileWriter = new FileWriter("src/main/resources/apiResults.json");
                 fileWriter.write(response.toString());
 
-                // Parse file into JSONArray
-
+                // Publish to Kafka
+//                tripProducer.publish(response);
 
             } catch (IOException e) {
                 e.printStackTrace();

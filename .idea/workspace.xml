@@ -5,13 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d3ec3af-6ef0-4562-8de5-419ff1ba7f66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/fetching/results.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/resources/apiResults.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/elastic/ElasticQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/elastic/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/elastic/controllers/TripController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/elastic/controllers/exception/TripControllerExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/elastic/metadata/NegativePriceTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/elastic/repos/TripRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/elastic/service/TripService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/elastic/service/exception/TripNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/elastic/service/impl/DefaultTripService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/elastic/validator/TicketPriceValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/gui/indexGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/kafka/KafkaConsumerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/kafka/TripConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/model/Trip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/config/TripConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/fetching/WriteDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/kafka/TripProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/kafka/TripResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query_web-client/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/WebClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/WebClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query_web-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query_web-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query_web-client/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vexere-to-kafka-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/vexere-to-kafka-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vexere-to-kafka-service/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/vexere-to-kafka-service/settings.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/TicketServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/TicketServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/fetching/FetchingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/fetching/FetchingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/fetching/results.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/model/Trip.java" beforeDir="false" afterPath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/model/Trip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/resources/apiResults.json" beforeDir="false" afterPath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/resources/apiResults.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +119,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.42446044" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
