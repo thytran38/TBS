@@ -12,6 +12,9 @@ public class TicketServiceApplication {
     public static void main(String[] args) throws IOException, IllegalStateException {
         FetchingService fetchingService = new FetchingService();
         fetchingService.getAPIResults();
+//
+//        TripProducer tripProducer = new TripProducer();
+//        tripProducer.publish();
 
         SpringApplication.run(TicketServiceApplication.class, args);
 

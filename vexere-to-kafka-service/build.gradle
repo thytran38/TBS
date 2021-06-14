@@ -16,7 +16,10 @@ dependencies {
 	implementation group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5'
     implementation group: 'com.google.code.gson', name: 'gson', version: '2.7'
 
-    // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
+	implementation group: 'io.streamthoughts', name: 'kafka-connect-file-pulse-api', version: '1.5.2'
+	implementation group: 'org.apache.kafka', name: 'kafka-clients', version: '2.5.1'
+
+	// https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
     implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.0.1'
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-data-rest'

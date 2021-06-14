@@ -5,37 +5,73 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d3ec3af-6ef0-4562-8de5-419ff1ba7f66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/elastic/ElasticQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/elastic/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/elastic/controllers/TripController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/elastic/controllers/exception/TripControllerExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/elastic/metadata/NegativePriceTicket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/elastic/repos/TripRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/elastic/service/TripService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/elastic/service/exception/TripNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/elastic/service/impl/DefaultTripService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/elastic/validator/TicketPriceValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/gui/indexGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/kafka/KafkaConsumerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/kafka/TripConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/model/Trip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/config/TripConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/fetching/WriteDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/kafka/TripProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/kafka/TripResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/vxr-to-kafka-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vexere-to-kafka-service/producer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/service/TripDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/service/TripSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vxr-to-kafka-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vxr-to-kafka-service/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vxr-to-kafka-service/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vxr-to-kafka-service/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vxr-to-kafka-service/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vxr-to-kafka-service/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vxr-to-kafka-service/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vxr-to-kafka-service/src/main/java/tbs/vxrkafka/WebClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vxr-to-kafka-service/src/main/java/tbs/vxrkafka/fetching/FetchingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vxr-to-kafka-service/src/main/java/tbs/vxrkafka/gui/indexGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vxr-to-kafka-service/src/main/java/tbs/vxrkafka/kafka/TripProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vxr-to-kafka-service/src/main/java/tbs/vxrkafka/model/Trip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vxr-to-kafka-service/src/main/java/tbs/vxrkafka/service/JSONArrayToEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vxr-to-kafka-service/src/main/resources/apiResults.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vxr-to-kafka-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vxr-to-kafka-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vxr-to-kafka-service/src/main/resources/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vxr-to-kafka-service/src/main/resources/static/images/Searchs_002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vxr-to-kafka-service/src/main/resources/static/images/wp2704613.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vxr-to-kafka-service/src/main/resources/static/js/extention/choices.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vxr-to-kafka-service/src/main/resources/static/js/extention/custom-materialize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vxr-to-kafka-service/src/main/resources/static/js/extention/flatpickr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vxr-to-kafka-service/src/main/resources/static/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vxr-to-kafka-service/src/main/resources/templates/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vxr-to-kafka-service/src/main/resources/templates/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vxr-to-kafka-service/src/main/resources/templates/TODO.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vxr-to-kafka-service/src/main/resources/templates/jquery.seat-charts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vxr-to-kafka-service/src/main/resources/templates/jquery.seat-charts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vxr-to-kafka-service/src/main/resources/templates/jquery.seat-charts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vxr-to-kafka-service/src/main/resources/templates/result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vxr-to-kafka-service/src/main/resources/templates/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vxr-to-kafka-service/src/main/resources/templates/test/general.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vxr-to-kafka-service/src/main/resources/templates/test/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vxr-to-kafka-service/src/main/resources/templates/test/interactions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vxr-to-kafka-service/src/main/resources/templates/test/methods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vxr-to-kafka-service/src/main/resources/templates/test/multiple.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vxr-to-kafka-service/src/test/java/tbs/vxrkafka/WebClientApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/query_web-client/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/WebClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/WebClientApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_web-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_web-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_web-client/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/WebClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/vxrkafka/WebClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/elastic/ElasticQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/vxrkafka/elastic/ElasticQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/elastic/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/vxrkafka/elastic/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/elastic/controllers/TripController.java" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/vxrkafka/elastic/controllers/TripController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/elastic/controllers/exception/TripControllerExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/vxrkafka/elastic/controllers/exception/TripControllerExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/elastic/metadata/NegativePriceTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/vxrkafka/elastic/metadata/NegativePriceTicket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/elastic/repos/TripRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/vxrkafka/elastic/repos/TripRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/elastic/service/TripService.java" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/vxrkafka/elastic/service/TripService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/elastic/service/exception/TripNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/vxrkafka/elastic/service/exception/TripNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/elastic/service/impl/DefaultTripService.java" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/vxrkafka/elastic/service/impl/DefaultTripService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/elastic/validator/TicketPriceValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/vxrkafka/elastic/validator/TicketPriceValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/gui/indexGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/vxrkafka/gui/indexGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/kafka/KafkaConsumerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/vxrkafka/kafka/KafkaConsumerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/kafka/TripConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/vxrkafka/kafka/TripConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/client/webclient/model/Trip.java" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/vxrkafka/model/Trip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query_web-client/src/test/java/tbs/client/webclient/WebClientApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/test/java/tbs/vxrkafka/WebClientApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vexere-to-kafka-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/vexere-to-kafka-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vexere-to-kafka-service/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/vexere-to-kafka-service/settings.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/TicketServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/TicketServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/config/TripConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/config/TripConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/fetching/FetchingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/fetching/FetchingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/fetching/results.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/model/Trip.java" beforeDir="false" afterPath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/model/Trip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/resources/apiResults.json" beforeDir="false" afterPath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/resources/apiResults.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/kafka/TripProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vexere-to-kafka-service/src/main/java/tbs/services/ticketservice/kafka/TripResource.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +95,9 @@
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/vexere-to-kafka-service">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/vxr-to-kafka-service">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/web-client">
@@ -114,22 +153,49 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../nsth-eventdriven/4.1 microservices-demo/twitter-to-kafka-service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/vxr-to-kafka-service/src/main/resources/templates" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.42446044" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vxr-to-kafka-service/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/ticket-service/libs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vexere-to-kafka-service" />
       <recent name="Y:\Workspace\tbs\TBS\query_web-client\src\main\resources\static" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tbs.client.webclient.fetching" />
+    </key>
   </component>
-  <component name="RunManager" selected="Gradle.ticket-service">
+  <component name="RunManager" selected="Gradle.Tests in 'vexere-to-kafka-service'">
+    <configuration name="Tests in 'vexere-to-kafka-service'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/vexere-to-kafka-service" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests *" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="Unnamed" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -191,9 +257,11 @@
       <item itemvalue="Gradle.Unnamed" />
       <item itemvalue="Gradle.web-client" />
       <item itemvalue="Gradle.ticket-service" />
+      <item itemvalue="Gradle.Tests in 'vexere-to-kafka-service'" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Tests in 'vexere-to-kafka-service'" />
         <item itemvalue="Gradle.ticket-service" />
         <item itemvalue="Gradle.web-client" />
       </list>
@@ -224,5 +292,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

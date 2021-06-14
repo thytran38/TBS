@@ -2,7 +2,11 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="EventStream" target="1.8" />
       <module name="query_web-client" target="1.8" />
+      <module name="tbs.client.query-web-client" target="1.8" />
+      <module name="tbs.client.query-web-client.main" target="1.8" />
+      <module name="tbs.client.query-web-client.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

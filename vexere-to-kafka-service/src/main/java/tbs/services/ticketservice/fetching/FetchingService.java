@@ -2,7 +2,6 @@ package tbs.services.ticketservice.fetching;
 
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
-import tbs.services.ticketservice.kafka.TripProducer;
 import tbs.services.ticketservice.model.Trip;
 
 import java.io.BufferedReader;
@@ -14,10 +13,6 @@ import java.net.URL;
 
 public class FetchingService {
     static FileWriter fileWriter;
-    static KafkaProducer<String, Object> kafkaProducer;
-
-
-    static TripProducer tripProducer;
 
     public static void getAPIResults() throws IOException {
         String result = "";
@@ -39,7 +34,6 @@ public class FetchingService {
                 fileWriter.write(response.toString());
 
                 // Publish to Kafka
-//                tripProducer.publish(response);
 
             } catch (IOException e) {
                 e.printStackTrace();
