@@ -27,10 +27,9 @@ public class TripProducer {
         KafkaProducer<String, String> producer = new KafkaProducer<>(properties);
         JSONArray array = JSONArrayToEntity.getTripJsonArray();
         for(int i = 0; i<array.length(); i++){
-            String key = "id_" + Integer.toString(i);
             JsonParser parser = new JsonParser();
             JsonObject object = (JsonObject) parser.parse(array.getJSONObject(i).toString());
-            ProducerRecord<String, String> producerRecord = new ProducerRecord<>("trips",key,object.toString());
+            ProducerRecord<String, String> producerRecord = new ProducerRecord<>("trip-events",object.toString());
 
             // Send data - asynchronously
             producer.send(producerRecord, new Callback() {
