@@ -12,6 +12,7 @@
       <module name="query-web-client" target="1.8" />
       <module name="query-web-client.main" target="1.8" />
       <module name="query-web-client.test" target="1.8" />
+      <module name="query_cheapestprice" target="1.8" />
       <module name="tbs.client.query-web-client" target="1.8" />
       <module name="tbs.client.query-web-client.main" target="1.8" />
       <module name="tbs.client.query-web-client.test" target="1.8" />

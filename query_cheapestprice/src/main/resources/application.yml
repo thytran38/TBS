@@ -1,9 +1,0 @@
-spring:
-  application:
-    name: query_web-client
-
-
-  searchbox:
-    appname: query_web-client
-    dataloader:
-      clearALl: true

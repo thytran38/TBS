@@ -36,6 +36,8 @@ dependencies {
 //	implementation 'org.springframework.boot:spring-boot-starter-hateoas'
 //	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+//	implementation group: 'org.springframework.data', name: 'spring-data-redis', version: '2.5.1'
+
 
 	// Project Lombok --
 	implementation 'org.projectlombok:lombok:1.18.18'
