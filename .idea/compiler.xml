@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="elastic" target="1.5" />
       <module name="EventStream" target="1.8" />
       <module name="EventStream.main" target="1.8" />
       <module name="EventStream.test" target="1.8" />
@@ -14,6 +15,9 @@
       <module name="tbs.client.query-web-client" target="1.8" />
       <module name="tbs.client.query-web-client.main" target="1.8" />
       <module name="tbs.client.query-web-client.test" target="1.8" />
+      <module name="tbs.client.query_web-client" target="1.8" />
+      <module name="tbs.client.query_web-client.main" target="1.8" />
+      <module name="tbs.client.query_web-client.test" target="1.8" />
       <module name="vexere-to-kafka-service" target="1.8" />
       <module name="vexere-to-kafka-service.main" target="1.8" />
       <module name="vexere-to-kafka-service.test" target="1.8" />

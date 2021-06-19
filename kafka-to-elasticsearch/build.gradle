@@ -32,7 +32,8 @@ dependencies {
     implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-server'
     implementation 'org.springframework.cloud:spring-cloud-starter-netflix-hystrix'
     implementation 'org.springframework.cloud:spring-cloud-starter-netflix-ribbon'
-    implementation group: 'jakarta.persistence', name: 'jakarta.persistence-api', version: '2.2.3' \
+    implementation group: 'jakarta.persistence', name: 'jakarta.persistence-api', version: '2.2.3'
+
 
     // https://mvnrepository.com/artifact/org.springframework.data/spring-data-elasticsearch
 	implementation group: 'org.apache.kafka', name: 'kafka-clients', version: '2.5.1'

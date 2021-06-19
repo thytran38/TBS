@@ -1,9 +1,9 @@
-package tbs.vxrkafka.gui;
+package tbs.webclient.gui;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import tbs.vxrkafka.fetching.FetchingService;
-import tbs.vxrkafka.service.JSONArrayToEntity;
+import tbs.webclient.fetching.FetchingService;
+import tbs.webclient.service.JSONArrayToEntity;
 
 import java.io.IOException;
 

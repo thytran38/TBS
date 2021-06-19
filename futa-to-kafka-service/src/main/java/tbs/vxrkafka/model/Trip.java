@@ -1,4 +1,4 @@
-package tbs.vxrkafka.model;
+package tbs.webclient.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import org.springframework.data.annotation.Id;

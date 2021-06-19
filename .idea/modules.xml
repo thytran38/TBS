@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/TBS.iml" filepath="$PROJECT_DIR$/.idea/TBS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/elastic/elastic.iml" filepath="$PROJECT_DIR$/elastic/elastic.iml" />
     </modules>
   </component>
 </project>

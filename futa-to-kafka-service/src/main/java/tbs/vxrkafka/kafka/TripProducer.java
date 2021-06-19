@@ -1,4 +1,4 @@
-package tbs.vxrkafka.kafka;
+package tbs.webclient.kafka;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
@@ -9,7 +9,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import tbs.vxrkafka.service.JSONArrayToEntity;
+import tbs.webclient.service.JSONArrayToEntity;
 
 import java.util.Properties;
 

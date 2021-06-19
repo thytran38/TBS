@@ -1,4 +1,4 @@
-package tbs.vxrkafka.fetching;
+package tbs.webclient.fetching;
 
 import java.io.BufferedReader;
 import java.io.FileWriter;
@@ -12,7 +12,8 @@ public class FetchingService {
 
     public static String getAPIResults() throws IOException {
         String result = "";
-        URL urlVxr = new URL("http://localhost:8081/allTrips");
+        String futaAPIEndpoint = "http://localhost:8081/allTrips";
+        URL urlVxr = new URL(futaAPIEndpoint);
         String readLine = null;
         HttpURLConnection connection = (HttpURLConnection) urlVxr.openConnection();
         connection.setRequestMethod("GET");
