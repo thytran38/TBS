@@ -5,48 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d3ec3af-6ef0-4562-8de5-419ff1ba7f66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/query_minprices.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/query_minprices/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/searchAllTrips.jtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/searchTripByRoute.jtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/searchAllTrips.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_cheapestprice/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/query_minprices/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_cheapestprice/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/query_minprices/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_cheapestprice/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/query_minprices/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_cheapestprice/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/query_minprices/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_cheapestprice/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/query_minprices/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_cheapestprice/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/query_minprices/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_cheapestprice/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_cheapestprice/src/main/java/tbs/elasticsearch/client.java" beforeDir="false" afterPath="$PROJECT_DIR$/query_minprices/src/main/java/tbs/elasticsearch/client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_cheapestprice/src/main/java/tbs/webclient/WebClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/query_minprices/src/main/java/tbs/webclient/WebClientApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_cheapestprice/src/main/java/tbs/webclient/controller/TripController.java" beforeDir="false" afterPath="$PROJECT_DIR$/query_minprices/src/main/java/tbs/webclient/controller/TripController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_cheapestprice/src/main/java/tbs/webclient/model/Trip.java" beforeDir="false" afterPath="$PROJECT_DIR$/query_minprices/src/main/java/tbs/webclient/model/Trip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_cheapestprice/src/main/java/tbs/webclient/model/Trip2.java" beforeDir="false" afterPath="$PROJECT_DIR$/query_minprices/src/main/java/tbs/webclient/model/Trip2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_cheapestprice/src/main/java/tbs/webclient/service/TripService.java" beforeDir="false" afterPath="$PROJECT_DIR$/query_minprices/src/main/java/tbs/webclient/service/TripService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_cheapestprice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/query_minprices/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_cheapestprice/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_cheapestprice/src/main/resources/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/query_minprices/src/main/resources/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_cheapestprice/src/main/resources/static/images/Searchs_002.png" beforeDir="false" afterPath="$PROJECT_DIR$/query_minprices/src/main/resources/static/images/Searchs_002.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_cheapestprice/src/main/resources/static/images/wp2704613.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/query_minprices/src/main/resources/static/images/wp2704613.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_cheapestprice/src/main/resources/static/js/extention/choices.js" beforeDir="false" afterPath="$PROJECT_DIR$/query_minprices/src/main/resources/static/js/extention/choices.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_cheapestprice/src/main/resources/static/js/extention/custom-materialize.js" beforeDir="false" afterPath="$PROJECT_DIR$/query_minprices/src/main/resources/static/js/extention/custom-materialize.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_cheapestprice/src/main/resources/static/js/extention/flatpickr.js" beforeDir="false" afterPath="$PROJECT_DIR$/query_minprices/src/main/resources/static/js/extention/flatpickr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_cheapestprice/src/main/resources/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/query_minprices/src/main/resources/static/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_cheapestprice/src/main/resources/templates/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/query_minprices/src/main/resources/templates/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_cheapestprice/src/main/resources/templates/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/query_minprices/src/main/resources/templates/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_cheapestprice/src/main/resources/templates/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/query_minprices/src/main/resources/templates/TODO.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_cheapestprice/src/main/resources/templates/test/general.js" beforeDir="false" afterPath="$PROJECT_DIR$/query_minprices/src/main/resources/templates/test/general.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_cheapestprice/src/main/resources/templates/test/interactions.js" beforeDir="false" afterPath="$PROJECT_DIR$/query_minprices/src/main/resources/templates/test/interactions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_cheapestprice/src/main/resources/templates/test/methods.js" beforeDir="false" afterPath="$PROJECT_DIR$/query_minprices/src/main/resources/templates/test/methods.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_cheapestprice/src/main/resources/templates/test/multiple.js" beforeDir="false" afterPath="$PROJECT_DIR$/query_minprices/src/main/resources/templates/test/multiple.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_cheapestprice/src/test/java/tbs/webclient/WebClientApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/query_minprices/src/test/java/tbs/webclient/WebClientApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_web-client/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/webclient/WebClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/webclient/WebClientApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/webclient/controller/TripController.java" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/webclient/controller/TripController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/webclient/repo/TripRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/query_web-client/src/main/java/tbs/webclient/repository/TripRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_web-client/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchTripByRoute.jtl" beforeDir="false" afterPath="$PROJECT_DIR$/searchTripByRoute.jtl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
